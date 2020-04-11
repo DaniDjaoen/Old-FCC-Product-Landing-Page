@@ -1,0 +1,266 @@
+body {
+    font-family: Helvicta;
+  }
+  #header {
+    background-color: #ff6700;
+    position: fixed;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #nav-bar_btn-lbl {
+    display: none;
+    margin: auto 0;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  #nav-bar_btn {
+    display: none;
+  }
+  #nav-bar-close {
+    display: none;
+  }
+  #header-img {
+    max-height: 50px;
+    padding: 10px;
+    margin-left: 60px;
+  }
+  #nav-bar {
+    line-height: 70px;
+    margin-right: 60px;
+  }
+  #nav-bar li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  #nav-bar li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Patua One", cursive;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  main::before {
+    content: " ";
+    min-height: 65px;
+    width: 100%;
+    display: inline-block;
+  }
+  header,
+  main,
+  footer {
+    max-width: 100vw;
+  }
+  #about {
+    background-image: url(https://i01.appmifile.com/webfile/globalimg/pandora/about/about-overview-img03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 500px;
+    padding: 10px;
+  }
+  .about-textbox {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    margin-top: 20px;
+    color: white;
+  }
+  .about-textbox h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 35px;
+  }
+  .about-textbox p {
+    font-size: 18px;
+  }
+  #featured,
+  #subscribe,
+  #showcase,
+  #footer {
+    padding-top: 20px;
+    margin-right: 70px;
+    margin-left: 70px;
+  }
+  h3 {
+    font-family: "Patua One";
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  h3:after {
+    content: " ";
+    height: 2px;
+    background-color: black;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 25px;
+  }
+  .fp-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+  }
+  .featured-products {
+    width: 20%;
+    text-align: center;
+  }
+  .featured-products img {
+    width: 100%;
+  }
+  .fp-images {
+    height: 200px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  #fp-img1 {
+    background-image: url(https://images.kogan.com/image/fetch/s--uP3NbMcm--/b_white,c_pad,f_auto,h_400,q_auto:good,w_600/https://assets.kogan.com/files/product/KHXIAMIBAND2BLK/KHXIAMIBAND2BLK_1.jpg);
+  }
+  #fp-img2 {
+    background-image: url(https://st1.bgr.in/wp-content/uploads/2018/09/xiaomi-redmi-note-6-pro-official.jpg);
+  }
+  #fp-img3 {
+    background-image: url(https://drop.ndtv.com/TECH/product_database/images/419201714803PM_635_xiaomi_mi_6.jpeg);
+  }
+  #fp-img4 {
+    background-image: url(https://static.digit.in/default/026c2d981850888c7da3ceddd72be4f09aef33c6.jpeg);
+  }
+  .fp-name p {
+    font-size: 24px;
+    color: #ff6700;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .fp-learnmore {
+    display: block;
+    padding: 10px;
+    background-color: darkgrey;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .fp-learnmore:hover {
+    background-color: #ff6700;
+    color: black;
+  }
+  .subscribe-box {
+    background-color: #ff6700;
+    display: inline-block;
+    min-width: 100%;
+  }
+  #subscribe {
+    margin-bottom: 40px;
+  }
+  #subscribe h3 {
+    color: white;
+  }
+  #subscribe h3:after {
+    background-color: white;
+  }
+  #subscribe p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  #subscribe p,
+  #form {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  #lbl-email,
+  #lbl-submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  #email {
+    height: 30px;
+    width: 30%;
+  }
+  #submit {
+    height: 30px;
+  }
+  #showcase {
+    margin-bottom: 40px;
+  }
+  #video {
+    width: 100%;
+    height: 500px;
+  }
+  .footer-box {
+    background-color: #111;
+    width: 100%;
+    display: inline-block;
+  }
+  #footer {
+    color: white;
+    margin-bottom: 30px;
+  }
+  #footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .footer-link {
+    color: #ff6700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Patua One";
+    font-size: 20px;
+  }
+  .footer-link:hover {
+    color: darkgrey;
+  }
+  #footer p {
+    margin-top: 40px;
+    font-size: 18px;
+    text-align: center;
+  }
+  #footer p a {
+    color: #ff6700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  #footer p a:hover {
+    color: darkgrey;
+  }
+  @media screen and (max-width: 750px) {
+    #nav-bar_btn-lbl {
+      display: block;
+      background-image: url(https://image.flaticon.com/icons/svg/56/56763.svg);
+      background-position: center;
+      background-size: cover;
+      height: 50px;
+      width: 50px;
+    }
+    #nav-bar {
+      display: none;
+    }
+    #nav-bar_btn:checked ~ #nav-bar {
+      display: block;
+    }
+    #nav-bar_btn:checked ~ #nav-bar_btn-lbl {
+      background-image: url(https://image.flaticon.com/icons/svg/59/59254.svg);
+    }
+    #header {
+      justify-content: space-evenly;
+    }
+    #header-img {
+      margin: auto 0;
+    }
+    #nav-bar ul {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  
